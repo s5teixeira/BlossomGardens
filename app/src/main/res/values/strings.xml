@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- added -->
+    <!-- Bottom Navigation -->
+    <string name="home">Home</string>
+    <string name="tickets">Flowers</string>
+    <string name="offers">Trees</string>
+    <string name="rewards">Vegetables</string>
+
+    <!-- Action Bar -->
+    <string name="settings">Settings</string>
+    <string name="cart">Shopping Cart</string>
+
+    <string name="content">Content</string>
+
+    <string name="home_fragment">Home Fragment</string>
+    <string name="tickets_fragment">Flowers Fragment</string>
+    <string name="offers_fragment">Trees Fragment</string>
+    <string name="rewards_fragment">Vegetables Fragment</string>
+
+    <string name="settings_fragment">Settings Fragment</string>
+    <string name="cart_fragment">Shopping Cart Fragment</string>
+
+    <string name="content_fragment">Content Fragment</string>
+    <string name="link_to_content_button">Link to Content Button</string>
+</resources>

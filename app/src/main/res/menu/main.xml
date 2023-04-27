@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+The "app bar" can also display other menu items through the "overflow menu".
+Displayed as three vertical dots at the top on the right-hand side
+This configuration shows two items: Cart and Settings
+Since it specifies the same ID as the SettingsFragment (mobile_navigation.xml)
+        android:id="@+id/nav_settings"
+it will open the SettingsFragment.
+
+The attribute being set to
+        app:showAsAction="never"
+ensures it will stay as a menu option within the three dots overflow menu
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_cart"
+        android:title="@string/cart"
+        android:icon="@drawable/cart"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_else"
+        android:title="FAQ/help"
+        app:showAsAction="never" />
+</menu>
