@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BottomNavigation</string>
+    <string name="app_name">BlossomGardens</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <!-- added -->
@@ -8,7 +8,7 @@
     <string name="tickets">Flowers</string>
     <string name="offers">Trees</string>
     <string name="rewards">Vegetables</string>
-    <string name="home2">Welcome to the garden app. Buy seeds or flowers :)))</string>
+    <string name="home2"></string>
 
     <!-- Action Bar -->
     <string name="settings">Settings</string>
@@ -16,14 +16,14 @@
 
     <string name="content">Content</string>
 
-    <string name="home_fragment">Garden App\n:) Welcome :)</string>
-    <string name="tickets_fragment">Flowers Fragment</string>
-    <string name="offers_fragment">Trees Fragment</string>
-    <string name="rewards_fragment">Vegetables Fragment</string>
+    <string name="home_fragment"></string>
+    <string name="tickets_fragment">Flowers</string>
+    <string name="offers_fragment">Trees</string>
+    <string name="rewards_fragment">Seeds</string>
 
-    <string name="settings_fragment">Settings Fragment</string>
-    <string name="cart_fragment">Shopping Cart Fragment</string>
+    <string name="settings_fragment">Settings</string>
+    <string name="cart_fragment">Shopping Cart</string>
 
-    <string name="content_fragment">Content Fragment</string>
+    <string name="content_fragment">Content</string>
     <string name="link_to_content_button">Link to Content Button</string>
 </resources>
