@@ -5,9 +5,35 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+
+
+//
+//class TicketsFragment : AppCompatActivity() {
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContentView(R.layout.fragment_tickets)
+//
+//        findViewById<Button>(R.id.button)?.setOnClickListener {
+//            var total = 0
+//            val buttonValue = 25.99    // actual value of the button (daisy)
+//            total += buttonValue
+//            updateShoppingCart(total)
+//        }
+//
+//        fun updateShoppingCart(total: Int) {
+//            shopping_cart_total?.text = "Total: $total" // Replace "shopping_cart_total" with the ID of the shopping cart TextView
+//        }
+//
+//
+//        }
+//
+//
+//    }
 
 // TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+ //the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
@@ -17,7 +43,8 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class TicketsFragment : Fragment() {
-    // TODO: Rename and change types of parameters
+
+//  TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
@@ -56,4 +83,5 @@ class TicketsFragment : Fragment() {
                 }
             }
     }
+
 }
