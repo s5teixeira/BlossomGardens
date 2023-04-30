@@ -3,6 +3,8 @@ package com.example.bottomnavigation
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
@@ -38,6 +40,12 @@ class MainActivity : AppCompatActivity() {
         // when user click bottom menu, each fragment's xml shows in the middle
         // nav_view is from activity_main.xml
         findViewById<BottomNavigationView>(R.id.nav_view)?.setupWithNavController(navHostFragment.navController)
+
+//        val button1 = findViewById(R.id.button1) as Button
+//        button1.setOnClickListener {
+//            Toast.makeText(this@MainActivity, "You clicked me.", Toast.LENGTH_SHORT).show()
+//        }
+
     }
 
     // Add the "overflow menu" (cart and settings) to the "app bar"

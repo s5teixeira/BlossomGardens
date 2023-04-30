@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="71dp"
             android:gravity="center"
-            android:text="Buy Seeds, FLowers, and Trees!"
+            android:text="Buy Seeds, Flowers, and Trees!"
             android:textSize="28dp" />
 
         <ImageView
