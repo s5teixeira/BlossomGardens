@@ -22,7 +22,7 @@
     <string name="rewards_fragment">Seeds</string>
 
     <string name="settings_fragment">Settings</string>
-    <string name="cart_fragment">Shopping Cart</string>
+    <string name="cart_fragment"> </string>
 
     <string name="content_fragment">Content</string>
     <string name="link_to_content_button">Link to Content Button</string>

@@ -39,6 +39,7 @@
                     android:id="@+id/button9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="sendToShoppingCart"
                     android:text="Maple Tree $30.99" />
 
                 <ImageView
@@ -51,6 +52,7 @@
                     android:id="@+id/button10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="sendToShoppingCart"
                     android:text="Oak Tree $32.99" />
 
                 <ImageView
@@ -63,6 +65,7 @@
                     android:id="@+id/button11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="sendToShoppingCart"
                     android:text="Apple Tree $40.99" />
 
                 <ImageView
@@ -75,6 +78,7 @@
                     android:id="@+id/button12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="sendToShoppingCart"
                     android:text="Elder Tree $15.99" />
 
                 <ImageView
@@ -87,6 +91,7 @@
                     android:id="@+id/button13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="sendToShoppingCart"
                     android:text="Paw Tree $17.99" />
 
             </LinearLayout>

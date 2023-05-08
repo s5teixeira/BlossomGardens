@@ -40,6 +40,7 @@
                     android:id="@+id/button8"
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
+                    android:onClick="sendToShoppingCart"
                     android:text="Sunflower seeds $1.00" />
 
                 <ImageView
@@ -52,6 +53,7 @@
                     android:id="@+id/button9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="sendToShoppingCart"
                     android:text="Cherry Tomato seeds $1.00" />
 
                 <ImageView
@@ -64,6 +66,7 @@
                     android:id="@+id/button10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="sendToShoppingCart"
                     android:text="Pumpkin seeds $1.00" />
 
                 <ImageView
@@ -76,6 +79,7 @@
                     android:id="@+id/button11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="sendToShoppingCart"
                     android:text="Rose seeds $2.50" />
 
                 <ImageView
@@ -88,6 +92,7 @@
                     android:id="@+id/button12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="sendToShoppingCart"
                     android:text="Petunia seeds $1.50" />
 
                 <TextView

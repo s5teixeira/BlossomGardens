@@ -1,10 +1,12 @@
 package com.example.bottomnavigation
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
+import androidx.fragment.app.Fragment
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -27,6 +29,16 @@ class CartFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+        Log.d("dummy", "hoppingcart oncreate")
+
+//        Log.d("dummy", view!!.findViewById<TextView>(R.id.textView5).text.toString())
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d("dummy", "onstart ran")
+        view!!.findViewById<TextView>(R.id.textView5).text =
+            MainActivity.globalMessage.joinToString("\n")
     }
 
     override fun onCreateView(
@@ -34,6 +46,7 @@ class CartFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        Log.d("dummy", "inflate layout")
         return inflater.inflate(R.layout.fragment_cart, container, false)
     }
 

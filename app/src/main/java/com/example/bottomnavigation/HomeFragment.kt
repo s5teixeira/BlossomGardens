@@ -1,10 +1,13 @@
 package com.example.bottomnavigation
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.Toast
+import androidx.fragment.app.Fragment
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -27,15 +30,32 @@ class HomeFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+        Log.d("test", "homefragment oncreate")
+        MainActivity.globalMessage.add("Shopping Cart (main activity)") //   ADDS TO SHOPPING CART ********
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false)
+//        val view: View = inflater!!.inflate(R.layout.fragment_home, container, false)
+//        view. .setOnClickListener { view ->
+//            Log.d("button12", "Selected")
+//        }
+//        return view
+
     }
+
+//    override fun onStart() {
+//        super.onStart()
+//        val button: Button = view!!.findViewById(R.id.button_test_thing)
+//        button.setOnClickListener {
+////            Toast.makeText(this@HomeFragment, "You clicked me.", Toast.LENGTH_SHORT).show()
+//            Log.d("test", "test button pressed")
+////            MainActivity.globalMessage.add("onStart test here!!!")
+//        }
+//    }
 
     companion object {
         /**
