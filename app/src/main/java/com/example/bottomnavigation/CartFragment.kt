@@ -39,6 +39,12 @@ class CartFragment : Fragment() {
         Log.d("dummy", "onstart ran")
         view!!.findViewById<TextView>(R.id.textView5).text =
             MainActivity.globalMessage.joinToString("\n")
+
+        // CALCULATE TOTAL
+        // for (text in global message (array list))
+    //          strip $price
+    //          toDouble(price)
+        // $price -> global message -> to second textview in shopping cart
     }
 
     override fun onCreateView(
