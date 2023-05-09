@@ -114,4 +114,23 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this@MainActivity, "Added to Cart!", Toast.LENGTH_SHORT).show()
 
     }
+
+
+
+
+//    var incrementingValue = 1 // Initialize the incrementing value to 1
+//
+//    fun sendToShoppingCart2(view: View) {
+//        Log.d("Shopping Cart", "button clicked, item added to cart")
+//        val buttonText = (view as Button).text.toString()
+//        val message = "$buttonText x $incrementingValue" // Add the incrementing value to the message
+//        MainActivity.globalMessage.add(message)
+//        Toast.makeText(this@MainActivity, "Added to Cart!", Toast.LENGTH_SHORT).show()
+//    }
+
+    // Add a click listener to the incrementing button to update its value
+//    val incrementingButton = findViewById<Button>(R.id.incrementingButton) as Button2
+//    incrementingButton.setOnClickListener {
+//        incrementingValue++
+//    }
 }

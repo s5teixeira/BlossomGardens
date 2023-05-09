@@ -40,12 +40,24 @@ class CartFragment : Fragment() {
         view!!.findViewById<TextView>(R.id.textView5).text =
             MainActivity.globalMessage.joinToString("\n")
 
-        // CALCULATE TOTAL
-        // for (text in global message (array list))
-    //          strip $price
-    //          toDouble(price)
-        // $price -> global message -> to second textview in shopping cart
+
+//         CALCULATE TOTAL
+//         Initialize total variable
+//        var total = 0.0
+//
+//         Loop through the global messages array list
+//        for (text in globalMessage) {
+//             Strip $price from the text
+//            val priceString = text.replace("$", "")
+//
+//             Convert the price to a double and add it to the total
+//            val price = priceString.toDouble()
+//            total += price
+//        }
+//         Display the total in the second textview in the shopping cart
+//        secondTextView.text = "$" + total.toString()
     }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
